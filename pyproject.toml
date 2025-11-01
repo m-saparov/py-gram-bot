@@ -1,0 +1,11 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pygram-bot"
+version = "0.1.0"
+description = "Oddiy Telegram bot framework"
+authors = [{ name = "Saparov Mehroj" }]
+dependencies = ["requests"]
+readme = "README.md"
